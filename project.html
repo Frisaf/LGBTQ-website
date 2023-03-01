@@ -16,6 +16,42 @@ font-family: 'Josefin Sans', sans-serif;
 background-image: url("pride_parade.jpg")
 }
 
+.menuIcon {
+    background-color: black;
+    color: white;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu {
+    background-color: transparent;
+    width: 100%;
+    height: 20px;
+    align-self: bottom;
+    text-align: left;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.contents:hover + .hidden {
+    align-self: left;
+    text-align: center;
+    height: 30px;
+    width: 70px;
+}
+
+.contentsList {
+    height: 250px;
+    width: 200px;
+    padding: 20px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.hidden {
+    display: none;
+}
+
 .center {
     margin: auto;
     width: 75%;
@@ -64,10 +100,24 @@ ul.centerlist {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
     <div class="bg">
+        <div class="menuIcon">
+            <a href="project.html"><img src="LGBTQ+ (1).png" width="10%" height="40%"></a>
+        <p><strong>Your digital encyclopedia for everything LGBTQ+ related!</strong></p>
+
+            <div class="menu">
+                <div class="contents"><p>Contents</p></div>
+                
+                <div class="hidden"><div class="contentsList">
+                    <ul>
+                    <li><a href="mostcommonsexualities.html">The most common sexualities</a></li>
+                </ul></div>
+            </div>
+            </div>
+            </div>
+
+
     <div class="center">
         <div class="centerbg">
-            <a href="project.html"><img src="LGBTQ+ (1).png" width="20%" height="20%"></a>
-        <p><strong>Your digital encyclopedia for everything LGBTQ+ related!</strong></p>
                 <img src="pride.jpg" width="50%" height="50%">
            <p>The letters in the acronym "LGBTQ" stands for "Lesbian Gay Trans Queer". Another shorter version of LGBTQ is LGBT, which leaves out queer. You may also come across other
             versions such as "LGBTQIA+" and "2SLGBTQIA+" where "I" stands for "Intersex", "A" for "Asexual" and "2S" for "Two Spirit". The plus may be inluded in all acronyms and
@@ -99,7 +149,8 @@ ul.centerlist {
                 <br>
                 <strong>DISCLAIMER</strong><br>
                 <p>Most information here is taken from the <a href="https://lgbtqia.fandom.com/wiki/LGBTQIA%2B_Wiki">LGBTQIA+ Wiki</a> on Fandom. I do not own anything written
-                there and all credit should go to the creators of LGBTQIA+ Wiki.</p>
+                there and all credit should go to the creators of LGBTQIA+ Wiki.<br><br>
+                Everything here is a placeholder and it will develop with time.</p>
             </p>
         </div>
     </div>
